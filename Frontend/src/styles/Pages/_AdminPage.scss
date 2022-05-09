@@ -1,0 +1,124 @@
+.adminPage {
+  min-width: 400px;
+
+  h2 {
+    text-align: center;
+    font-size: 2.4em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+
+
+  button,
+  .DeleteButton {
+    padding: 5px 10px;
+    font-size: 1.4em;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    display: block;
+    margin: 0 auto;
+
+    &:hover {
+      color: white;
+      background-color: red;
+    }
+  }
+
+  .DeleteButton {
+    padding: 0 6px 0 6px;
+    font-size: 1.4em !important;
+  }
+
+  .Table,
+  table,
+  thead,
+  tbody {
+    width: 100%;
+  }
+
+  th,
+  td {
+    border: 1px white solid;
+    text-align: center;
+    font-size: 1.6em;
+
+  }
+
+
+  th {
+    font-size: 1.8em;
+    border: 2px solid white;
+  }
+
+
+
+
+  .Table {
+
+    h2 {
+      margin: 40px 0;
+    }
+
+    img {
+      max-width: 50px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+  }
+
+  .form {
+    text-align: center;
+  }
+
+  .Logout {
+    margin-bottom: 20px;
+  }
+}
+
+.Login {
+  width: 100%;
+  margin: 6% auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+
+  p {
+    font-size: 2.4em;
+    margin-top: 30px;
+  }
+
+  form {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+
+    label {
+      font-size: 2em;
+
+      input {
+        font-size: 1.8em;
+      }
+    }
+
+  }
+
+  button {
+    margin: 1% auto;
+    padding: 5px 10px;
+    font-size: 1.6em;
+
+  }
+}
+
+.main {
+  td {
+    color: yellow;
+    font-weight: 600;
+    border: 3px solid;
+  }
+}

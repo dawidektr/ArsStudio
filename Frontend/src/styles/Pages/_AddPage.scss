@@ -1,0 +1,64 @@
+.AddPage {
+  display: flex;
+
+  flex-direction: column;
+
+  h3 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.2em;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 40vh;
+
+
+    label {
+
+      font-weight: bold;
+      margin-bottom: 2%;
+      text-align: center;
+      font-size: 25px;
+
+      input,
+      textarea,
+      select,
+      option {
+
+        line-height: 1.2;
+        padding: 1px;
+        font-size: 25px;
+      }
+
+      textarea {
+        min-width: 80%;
+        min-height: 10vh;
+      }
+
+      .name {
+        width: 60%;
+        line-height: 1.6;
+        font-size: 25px;
+      }
+
+      .error {
+        color: red;
+      }
+    }
+
+    button {
+      margin: 0 45% 5px;
+      font-size: 25px;
+      padding: 2px 4px;
+
+      &:hover {
+        color: yellow;
+        background-color: red;
+      }
+    }
+  }
+}

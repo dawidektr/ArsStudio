@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 10px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 105vh;
+  color: rgb(255, 81, 0);
+
+
+
+
+  main {
+    flex-grow: 1;
+    background: #18191A;
+  }
+
+  footer {
+    flex-basis: 10%;
+    padding: 10px 5px 10px 5px;
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+
+}

@@ -1,0 +1,91 @@
+.NavBar {
+  display: flex;
+  background-color: #333;
+  flex-basis: 60px;
+  width: 100%;
+  flex-direction: column;
+
+  nav.normalNavigation {
+    .logoMobileLink {
+      position: absolute;
+      top: 0;
+      left: 10%;
+      text-decoration: none;
+      color: white;
+
+      .logoMobile {
+        p {
+          font-size: 2em;
+          line-height: 60px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    display: flex;
+    flex-basis: 60px;
+    flex-direction:row;
+    width: 100%;
+
+    ul {
+      display: none;
+      list-style: none;
+      text-align: center;
+
+      li {
+        flex-grow: 1;
+      }
+    }
+  }
+
+  nav.mobileNavigation {
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    width: 100%;
+
+    .hamburger {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      cursor: pointer;
+    }
+
+    ul {
+      width: 100%;
+      list-style: none;
+      background-color: #333;
+      text-align: center;
+      border-top: 3px solid gray;
+      position: absolute;
+
+      li {
+        flex-grow: 1;
+
+        a {
+          display: block;
+          text-decoration: none;
+          color: white;
+          text-transform: uppercase;
+          line-height: 2;
+          font-weight: 500;
+          font-size: 16px;
+          transition: 0.2s;
+          padding: 6px;
+
+          &.active {
+            color: orange;
+            transform: translate(0);
+          }
+
+        }
+      }
+    }
+
+
+  }
+
+
+
+
+}
